@@ -7,9 +7,13 @@ map:
   address: "1 George Street, Dunedin, New Zealand"
   zoom: 13
 ---
-
 <section class="diagonal">
-	<div class="container">
-		<p class="subtext editable">You can contact us at <a href="mailto:eirexe@eirteam.moe">eirexe@eirteam.moe</a></p>
+	<div class="container halves aligned-top">
+		<div>
+			<h3>Email</h3>
+			<p><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
+		</div>
 	</div>
 </section>
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>

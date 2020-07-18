@@ -2,29 +2,19 @@
   links:
     - name: Home
       link: /
-    - name: Portfolio
-      link: /portfolio/
-    - name: Blog
-      link: /blog/
-    - name: About
-      link: /about/
     - name: Contact
       link: /contact/
 - title: Social
   links:
-    - name: Facebook
-      link: https://facebook.com/cloudcannon/
-      social_icon: Facebook
-      new_window: true
     - name: Twitter
-      link: https://twitter.com/cloudcannon/
+      link: https://twitter.com/pheartbeatgame/
       social_icon: Twitter
       new_window: true
     - name: Instagram
-      link: https://instagram.com/
+      link: https://www.instagram.com/pheartbeatgame/
       social_icon: Instagram
       new_window: true
-    - name: LinkedIn
-      link: https://nz.linkedin.com/company/cloud-cannon
-      social_icon: LinkedIn
+    - name: YouTube
+      link: https://www.youtube.com/channel/UCoRVwbucvLq2JAFIuTcg66Q
+      social_icon: YouTube
       new_window: true
